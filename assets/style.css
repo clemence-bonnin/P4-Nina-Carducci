@@ -6,6 +6,11 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+h1 {
+	font-size: 26px;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -16,10 +21,6 @@ body {
 	padding-inline: 100px;
 	padding-block: 30px;
 	align-items: center;
-}
-
-.top-header .name {
-	font-size: 26px;
 }
 
 .nav ul {
