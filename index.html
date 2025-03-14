@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang=""fr>
 <head>
+	<title>Nina Carducci - Photographe professionnelle à Bordeaux</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<title>Nina Carducci - Photographe</title>
-	<meta name="description" content="Nina Carducci, photographe professionnelle, saisit chaque émotion et chaque instant précieux avec sensibilité et créativité." />
+	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux, je capture vos plus beaux moments : portraits, mariages, événements et séances en entreprise." />
+	
+	<!-- Open Graph -->
+	<meta property="og:site_name" content="Nina Carducci" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://nina-carducci.github.io/" />
+	<meta property="og:title" content="Nina Carducci, photographe professionnelle à Bordeaux." />
+	<meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux, je capture vos plus beaux moments : portraits, mariages, événements et séances en entreprise." />
+	<meta property="og:image" content="./assets/images/autoportrait-photographe-nina-carducci.webp" />
+	
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@ninacarducci" />
+	<meta name="twitter:title" content="Nina Carducci, photographe professionnelle à Bordeaux." />
+	<meta name="twitter:description" content="Nina Carducci, photographe professionnelle à Bordeaux, je capture vos plus beaux moments : portraits, mariages, événements et séances en entreprise." />
+	<meta name="twitter:image" content="./assets/images/autoportrait-photographe-nina-carducci.webp" />
+	<meta name="twitter:url" content="https://nina-carducci.github.io/" />
+
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -71,6 +89,39 @@
 				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</div>
+
+			<!-- Micro-données pour le référencement local  -->
+			<div itemscope itemtype="http://schema.org/LocalBusiness">
+				<h2 itemprop="name">Nina Carducci</h2>
+				<p itemprop="description">Nina Carducci, photographe professionnelle à Bordeaux, je capture vos plus beaux moments : portraits, mariages, événements et séances en entreprise.</p>
+			</div>
+
+			<!-- Adresse -->
+			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
+				<span itemprop="addressLocality">Bordeaux</span>,
+				<span itemprop="addressRegion">Gironde</span>
+				<span itemprop="postalCode">33200</span>
+				<span itemprop="addressCountry">France</span>
+				<span itemprop="telephone">05 56 67 78 89</span>
+			</div>
+
+			<!-- Liens vers réseaux sociaux -->
+			<div>
+				<a itemprop="sameAs" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">Instagram</a>
+			</div>
+
+			<!-- Horaires -->
+			<div itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+				<meta itemprop="dayOfWeek" content="Monday" />
+				<meta itemprop="dayOfWeek" content="Tuesday" />
+				<meta itemprop="dayOfWeek" content="Wednesday" />
+				<meta itemprop="dayOfWeek" content="Thursday" />
+				<meta itemprop="dayOfWeek" content="Friday" />
+				<meta itemprop="opens" content="10:00" />
+				<meta itemprop="closes" content="19:00" />
+			</div>
+			
 		</section>
 
 		<section id="gallery">
